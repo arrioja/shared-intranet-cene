@@ -1,0 +1,39 @@
+#apDiv1 {
+	position:absolute;
+	left:21px;
+	top:71px;
+	width:350px;
+	height:443px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:479px;
+	top:68px;
+	width:350px;
+	height:445px;
+	z-index:2;
+}
+#apDiv3 {	position:absolute;
+	left:22px;
+	top:29px;
+	width:246px;
+	height:443px;
+	z-index:1;
+}
+#apDiv4 {
+	position:absolute;
+	left:388px;
+	top:76px;
+	width:75px;
+	height:91px;
+	z-index:3;
+}
+#apDiv5 {
+	position:absolute;
+	left:251px;
+	top:3px;
+	width:397px;
+	height:55px;
+	z-index:4;
+}

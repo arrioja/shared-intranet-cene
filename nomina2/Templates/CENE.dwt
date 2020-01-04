@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Intranet CENE</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../imagenes/CENE_11.png);
+	background-repeat: repeat-y;
+}
+-->
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr height="1">
+    <td width="2%"><img src="../imagenes/CENE_02.png" width="149" height="138" /></td>
+    <td width="94%"><img src="../imagenes/CENE_03.png" width="100%" height="138" /></td>
+    <td width="2%"><img src="../imagenes/CENE_04.png" width="407" height="138" /></td>
+    <td width="2%"><img src="../imagenes/CENE_05.png" width="366" height="138" /></td>
+  </tr>
+  <tr height="1">
+    <td width="2%"><img src="../imagenes/CENE_06.png" width="149" height="34" /></td>
+    <td colspan="3" valign="middle" background="../imagenes/CENE_07.png"><!-- TemplateBeginEditable name="menu_superior" -->menu_superior<!-- TemplateEndEditable --></td>
+  </tr>
+  <tr height="98%">
+    <td height="100%" valign="top"><!-- TemplateBeginEditable name="menu_izquierda" -->menu_izquierda<!-- TemplateEndEditable --></td>
+    <td height="100%" colspan="3" valign="top"><!-- TemplateBeginEditable name="cuerpo" -->cuerpo<!-- TemplateEndEditable -->
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr height="2%">
+    <td height="2%">&nbsp;</td>
+    <td colspan="3" valign="middle" height="2%"><h5 align="center">Contralor&iacute;a del Estado Nueva Esparta -      
+    Ultima actualizaci&oacute;n: 
+    <!-- #BeginDate format:fcSw1a -->Monday, 10 March, 2008 2:19 PM<!-- #EndDate -->
+    </h5></td>
+  </tr>
+</table>
+</body>
+</html>

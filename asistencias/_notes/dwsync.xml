@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="aprobar_vacaciones.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128439262184062500" remote="128439262180000000" />
+<file name="asistencia_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128517245209375000" remote="128517245200000000" />
+<file name="asistencia_diaria.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128515292868281250" remote="128515292860000000" />
+<file name="asistencia_semanal.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128517245218125000" remote="128517245210000000" />
+<file name="calcular_vacaciones.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128521720513593750" remote="128521720510000000" />
+<file name="cargar_archivo.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503345328906250" remote="128503345320000000" />
+<file name="editar_categoria.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348799531250" remote="128503348790000000" />
+<file name="editar_no_laborable.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348800468750" remote="128503348800000000" />
+<file name="editar_tipo_justificacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348801562500" remote="128503348800000000" />
+<file name="envia_archivo.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348813125000" remote="128503348810000000" />
+<file name="incluir_categoria.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348803125000" remote="128503348800000000" />
+<file name="incluir_justificacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128442925896562500" remote="128442925890000000" />
+<file name="incluir_justificacion_grupal.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128441882410781250" remote="128441882410000000" />
+<file name="incluir_justificacion_individual_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128441880752343750" remote="128441880750000000" />
+<file name="incluir_no_laborable.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348806718750" remote="128503348800000000" />
+<file name="incluir_permiso.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128442925277500000" remote="128442925270000000" />
+<file name="incluir_permiso_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128442911159062500" remote="128442911150000000" />
+<file name="incluir_permiso_propio.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128442026516718750" remote="128442026510000000" />
+<file name="incluir_tipo_justificacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503348817187500" remote="128503348810000000" />
+<file name="incluir_vacacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128514408709375000" remote="128514408700000000" />
+<file name="incluir_vacacion_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128514408849062500" remote="128514408840000000" />
+<file name="listar_categorias.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503345330000000" remote="128503345330000000" />
+<file name="listar_no_laborables.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503345335312500" remote="128503345330000000" />
+<file name="listar_tipo_justificaciones.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503345339531250" remote="128503345330000000" />
+<file name="index.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503351086406250" remote="128503351080000000" />
+<file name="aprobar_permisos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128412509758593750" remote="128412509750000000" />
+<file name="listado_vacaciones_disponibles.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128517245508281250" remote="128517245500000000" />
+<file name="listado_vacaciones_disponibles_list.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128517230060625000" remote="128517230060000000" />
+<file name="listado_vacaciones_disponibles_todos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128439261957656250" remote="128439261950000000" />
+<file name="aprobar_permisos.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="aprobar_vacaciones.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="asistencia_cedula.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="asistencia_diaria.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="asistencia_semanal.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="calcular_vacaciones.php" server="C:/Program Files/AppServ/www/intranet/" local="128521720520000000" remote="128521720520000000" />
+<file name="cargar_archivo.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="editar_categoria.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="editar_no_laborable.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="editar_tipo_justificacion.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="envia_archivo.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_categoria.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_justificacion.php" server="C:/Program Files/AppServ/www/intranet/" local="128442925900000000" remote="128442925900000000" />
+<file name="incluir_justificacion_grupal.php" server="C:/Program Files/AppServ/www/intranet/" local="128441882420000000" remote="128441882420000000" />
+<file name="incluir_justificacion_individual_cedula.php" server="C:/Program Files/AppServ/www/intranet/" local="128441880760000000" remote="128441880760000000" />
+<file name="incluir_no_laborable.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_permiso.php" server="C:/Program Files/AppServ/www/intranet/" local="128442925280000000" remote="128442925280000000" />
+<file name="incluir_permiso_cedula.php" server="C:/Program Files/AppServ/www/intranet/" local="128442911160000000" remote="128442911160000000" />
+<file name="incluir_permiso_propio.php" server="C:/Program Files/AppServ/www/intranet/" local="128442026520000000" remote="128442026520000000" />
+<file name="incluir_tipo_justificacion.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_vacacion.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_vacacion_cedula.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="index.php" server="C:/Program Files/AppServ/www/intranet/" local="128503351100000000" remote="128503351100000000" />
+<file name="listado_vacaciones_disponibles.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245520000000" remote="128517245520000000" />
+<file name="listado_vacaciones_disponibles_list.php" server="C:/Program Files/AppServ/www/intranet/" local="128517230080000000" remote="128517230080000000" />
+<file name="listado_vacaciones_disponibles_todos.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245240000000" remote="128517245240000000" />
+<file name="listar_categorias.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_no_laborables.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_tipo_justificaciones.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="aprobar_permisos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384470000000" remote="128661384470000000" />
+<file name="aprobar_vacaciones.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128702029537031250" remote="128702029530000000" />
+<file name="asistencia_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384470000000" remote="128661384470000000" />
+<file name="asistencia_semanal.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384470000000" remote="128661384470000000" />
+<file name="calcular_vacaciones.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384470000000" remote="128661384470000000" />
+<file name="cargar_archivo.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="editar_categoria.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="editar_no_laborable.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="editar_tipo_justificacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="envia_archivo.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_categoria.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_justificacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_justificacion_grupal.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_justificacion_individual_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_no_laborable.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_permiso.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_permiso_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_permiso_propio.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_tipo_justificacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_vacacion.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128702030236718750" remote="128702030230000000" />
+<file name="incluir_vacacion_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="index.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128503351100000000" remote="128503351100000000" />
+<file name="listado_vacaciones_disponibles.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="listado_vacaciones_disponibles_list.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128660478530000000" remote="128660478530000000" />
+<file name="listado_vacaciones_disponibles_todos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="listar_categorias.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="listar_no_laborables.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="listar_tipo_justificaciones.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="detalle_vacacion_funcionario.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128669151350000000" remote="128669151350000000" />
+<file name="detalle_vacacion_funcionario_disfrute.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128668316420000000" remote="128668316420000000" />
+<file name="estatus_asistencia.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_justificacion_dias_list.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128660478930000000" remote="128660478930000000" />
+<file name="consulta_vacaciones_propias.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="consultar_vacaciones_cedula.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="asistencia_propia.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384470000000" remote="128661384470000000" />
+<file name="asistencia_diaria.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128732175299375000" remote="128732175290000000" />
+<file name="asistencia_diaria_list.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128716716465156250" remote="128716716460000000" />
+<file name="login.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128645000030000000" remote="128645000030000000" />
+<file name="untitled.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128705385233906250" remote="128705385230000000" />
+<file name="marcado.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128708799142812500" remote="128708799140000000" />
+<file name="marcado_log.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128711570900000000" remote="128711570900000000" />
+<file name="untitled1.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128705619292500000" remote="128705619290000000" />
+<file name="consulta_intrahorario.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128732292487656250" remote="128732292480000000" />
+<file name="consulta_intrahorario_list.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128732255095625000" remote="128732255090000000" />
+</dwsync>

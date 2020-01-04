@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="login.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502483260625000" remote="128502483260000000" />
+<file name="mensaje.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502465469375000" remote="128502465460000000" />
+<file name="listar_usuarios_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502465469375000" remote="128502465460000000" />
+<file name="listar_grupos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503365260312500" remote="128503365260000000" />
+<file name="incluir_grupo_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502465468593750" remote="128502465460000000" />
+<file name="vincular_usuario_grupos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502465469531250" remote="128502465460000000" />
+<file name="listar_modulos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503365261406250" remote="128503365260000000" />
+<file name="incluir_modulos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502830505468750" remote="128502830500000000" />
+<file name="vincular_grupos_modulos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502465469531250" remote="128502465460000000" />
+<file name="index.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128521743318125000" remote="128521743310000000" />
+<file name="listar_sistemas_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128502816237343750" remote="128502816230000000" />
+<file name="incluir_sistemas_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503361171562500" remote="128503361170000000" />
+<file name="editar_sistemas_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503364503750000" remote="128503364500000000" />
+<file name="editar_grupos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503365257187500" remote="128503365250000000" />
+<file name="editar_modulos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128503365258750000" remote="128503365250000000" />
+<file name="listar_mensaje.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128509472141250000" remote="128509472140000000" />
+<file name="incluir_mensajes.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128508558226406250" remote="128508558220000000" />
+<file name="editar_mensajes.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128508566857656250" remote="128508566850000000" />
+<file name="listar_mensaje_solo_lectura.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/asistencias/" local="128508572715625000" remote="128508572710000000" />
+<file name="editar_grupos_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="editar_mensajes.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="editar_modulos_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="editar_sistemas_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_grupo_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_mensajes.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_modulos_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="incluir_sistemas_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="index.php" server="C:/Program Files/AppServ/www/intranet/" local="128521743320000000" remote="128521743320000000" />
+<file name="listar_grupos_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_mensaje.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_mensaje_solo_lectura.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_modulos_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_sistemas_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="listar_usuarios_intranet.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="login.php" server="C:/Program Files/AppServ/www/intranet/" local="128557710144843750" remote="128557710140000000" />
+<file name="mensaje.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="vincular_grupos_modulos.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="vincular_usuario_grupos.php" server="C:/Program Files/AppServ/www/intranet/" local="128517245220000000" remote="128517245220000000" />
+<file name="consultar_logs.php" server="C:/Program Files/AppServ/www/intranet/" local="128558501395468750" remote="128558501390000000" />
+<file name="consultar_logs_contenido.php" server="C:/Program Files/AppServ/www/intranet/" local="128558499157031250" remote="128558499150000000" />
+<file name="index.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128732265843437500" remote="128732265840000000" />
+<file name="consultar_logs.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128698669094843750" remote="128698669090000000" />
+<file name="consultar_logs_contenido.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128660476350000000" remote="128660476350000000" />
+<file name="editar_grupos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128668325500000000" remote="128668325500000000" />
+<file name="editar_mensajes.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128668325490000000" remote="128668325490000000" />
+<file name="editar_modulos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128668325650000000" remote="128668325650000000" />
+<file name="editar_sistemas_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384480000000" remote="128661384480000000" />
+<file name="incluir_grupo_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="incluir_mensajes.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="incluir_modulos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="incluir_sistemas_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="listar_grupos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128698670121562500" remote="128698670120000000" />
+<file name="listar_mensaje.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128698640428593750" remote="128698640420000000" />
+<file name="listar_mensaje_solo_lectura.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="listar_modulos_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128698669827812500" remote="128698669820000000" />
+<file name="listar_sistemas_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128698669374843750" remote="128698669370000000" />
+<file name="listar_usuarios_intranet.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128698669948437500" remote="128698669940000000" />
+<file name="login.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="mensaje.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384570000000" remote="128661384570000000" />
+<file name="vincular_grupos_modulos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384670000000" remote="128661384670000000" />
+<file name="vincular_usuario_grupos.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128661384670000000" remote="128661384670000000" />
+<file name="incluir_usuario_nuevo.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128693420430625000" remote="128693420430000000" />
+<file name="Control de Cambios.txt" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128734039445937500" remote="128734039440000000" />
+<file name="Untitled-1.html" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128663161740000000" remote="128663161740000000" />
+<file name="Intranet_Sistemas_Modulos.odt" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128662303910000000" remote="128662303910000000" />
+<file name="index_para_sub_directorios.php" server="C:/Program Files/Apache Software Foundation/Apache2.2/htdocs/intranet/" local="128703001483593750" remote="128703001480000000" />
+</dwsync>

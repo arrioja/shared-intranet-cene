@@ -1,0 +1,1 @@
+This pages was request in a non-ajax method, forced by putting rel="no-ajax" on the anchor tag

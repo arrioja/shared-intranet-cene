@@ -1,0 +1,151 @@
+0.1b - Lanzamiento
+0.2 - ***************************************************************************************************************************************
+Control de Documentos:
+
+    * Se incluyen módulos para el control de números de memorada para las Direcciones.
+    * Se incluyen módulos para el control de números de oficios para las Direcciones.
+	* Se creó un botón aparte para el control de documentos y se le dio un numero de sistema independiente del resto.
+	* Se añadió marca de rastreo para saber que usuario está solicitando el número de Memoranda u Oficio.
+	* Se añade la fecha del oficio y del memo al listado en listar_oficio_list.php y listar_memo_list.php respectivamente
+	* Se añaden módulos para anular los oficios y se crean las respectivas imagenes para botones.
+	* Se añade mejora visual a listar_oficio_list.php y a listar_memo_list.php - Se colorea en rojo los oficios y memos anulados.
+	* Se crea cambia_status.php para realizar las anulaciones y habilitaciones de documentos.
+
+Asistencias:
+
+    * Se incluye módulo para la consulta individual de vacaciones dada la cédula del funcionario
+    * Se incluye módulo mediante el cual, el usuario sólo puede ver su propia vacación y se modificó detalle_vacacion_funcionario.php 
+	  para devolver al usuario al index si viene restringido por esa pagina.
+    * Se incluye módulo mediante el cual, el usuario sólo puede ver su propia asistencia dada dos fechas y se modificó 
+	  reporte_asistencia_cedula.php para devolver al usuario a la pagina que corresponda si viene restringido por esa pagina.
+    * Se incluyo una comprobación al reporte semanal que chequea que el usuario haya seleccionado un Lunes como inicio de dicho reporte.
+	* Se añade columna que muestre el estatus de la vacación, con colores amarillo para pendiente, verde para aprobado y rojo para rechazado.
+	* Se convirtió el reporte de asistencia diaria para que use AJAX. Se separa del archivo rpt_asistencia_diaria.php y se renombra a
+	  asistencia_diaria_list.php para formar parte del AJAX con asistencia_diaria.php
+	* El Reporte de Asistencia Diaria ahora filtra directamente por fecha seleccionada y Dirección Seleccionada.
+	* Se corrije el vinculo del form1 a aprobar_permisos.php pq estaba mal direccionado a aprobar_vacaciones.php y adicionalmente, se usa 
+	  ahora el codigo del permiso como identificador en vez del campo id
+	* Se añaden marcas de rastreo a los siguientes módulos: inserta_categoria.php, inserta_justificacion.php, inserta_no_laborable.php,
+	  inserta_permiso.php, inserta_registros.php,  inserta_solicitud_vacacion.php, inserta_tipo_justificacion.php, inserta_vacaciones.php
+	  edita_categoria.php, edita_tipo_justificacion.php, edita_no_laborable.php, aprobar_permisos.php, aprobar_vacaciones.php,
+	  listar_categorias.php, listar_no_laborables.php, listar_tipo_justificaciones.php, 
+	* Corregido problema con la recepción de los datos de la fecha, del método POST a GET en asistencia_diaria_list.php originado por 
+	  la aplicación de AJAX a la consulta que previamente existía.  
+	* Se ha añadido la funcionalidad de trabajar con múltiples horarios en el año; es decir, el sistema ahora es configurable para 
+	  trabajar con dos tipos de horarios: un nivel 1: horario normal y un nivel 2: horario especial; el sistema siempre buscará 
+	  primero el horario especial, y si no consige ninguno asumirá el normal; adicionalmente, el horario especial puede ser configurado
+	  múltiples veces durante el año; de manera que si la institución asume un horario de 8 a 5 como horario normal, puede adicionalmente
+	  decirsele que en el mes de enero se labora de 8 a 2 y colocar ademas un horario decembrino de 9 a 12 y todos funcionarian al mismo 
+	  tiempo sin problemas, ya que el sistema busca cual aplica para la fecha especifica en la que se quiera sacar alguno de los reportes. 
+	* Se modifica asistencia_diaria_list.php, rpt_asistencia_cedula.php y rpt_asistencia_semanal.php para que acepte 
+	  la nueva forma de búsqueda de horario vigente creada en utilidades.php
+	* Se modifica la tabla asistencias.opciones para incluir vigencias de horarios para manejar múltiples horarios en varios
+	  periodos del año.
+
+Intranet:
+
+    * Se añadió colores a las líneas del log de usuarios para mejora visual y se ordenó la lista de manera descendiente por el timestamp.
+    * Se añadió colores al listado de usuarios de la intranet y se mejoraron los anchos de columnas.
+    * Se añadieron nuevos mensajes predeterminados
+    * El módulo de mensajes ahora manera añadiduras en caso de que el programador quiera añadir información adicional al mensaje sin 
+	  modificar el mensaje predeterminado guardado originalmente.
+    * Se incluyeron nuevos iconos para los módulos.
+	* Se modificó utilidades.php para convertir los valores esperados por la función maketime a enteros reconocibles para evitar el 
+	  mensaje de warning que da el navegador cuando hace la conversión el solo
+	* Se crea en la carpeta libs un php llamado elimina_imagen para eliminar las imagenes temporales de gráficos creadas, por seguridad se crea
+	  con restricciones que sólo le permite eliminar las imagenes png que se encuentran en la carpeta imgs/graf
+	* se tomó la comprobación genérica de acceso incluida en varios php y se construyó una sola función que se incluyó en 
+	  libs/comprueba_permiso; ahora la llamada desde los php quedó solo:  comprueba_acceso($_SERVER["SCRIPT_NAME"]); el unico inconveniente
+	  que queda por solucionar es que para ir a login e index si no tiene sesion creada, se tuvo que usar un nombre estático, de manera
+	  que se hace referencia a "/intranet/index.php", por lo que si se cambia el nombre del directorio virtual que contiene al sitio, hay
+	  que tambien cambiarlo aqui.
+	* se modifico listar_mensaje.php para que use los cambios descritos en comprueba_permiso.php
+	* Se modificó el método de envío de datos de GET a POST en el AJAX para aumentar la seguridad y evitar la posibilidad de usar el url de 
+	  forma indebida en los siguientes módulos: Consultar Logs.
+	* Se añadió comprobación de existencia de variables POST a los siguientes archivos: consultar_logs_contenido.php
+
+Declaración Jurada de Patrimonio
+	* Se incluye módulo para la inclusión de comprobantes de DJP.
+	* Se incluye módulo para consulta de comprobantes de DJP por cédula de identidad, mediante AJAX.
+	* Se incluyen estadísticas de comprobantes de DJP con gráficos de torta que muestran la distribución de masculinos/femeninos y además 
+	  distribución por tipo de DJP: ingreso, cese, actualizacion.
+	* Se añaden marcas de rastreo a los siguientes módulos: comprobantes_por_cedula.php, djp_guarda.php
+	
+Control de Gestión
+	* Se añaden módulos para administrar:
+		Planes Estratégicos de la Organización. (Listar/Insertar/Modificar/Eliminar).
+		Objetivos Estratégicos de la Organización. (Listar/Insertar/Modificar/Eliminar).
+		Planes Estratégicos de la Dirección. (Listar/Insertar/Modificar/Eliminar).
+		Objetivos Estratégicos de la Dirección. (Listar/Insertar/Modificar/Eliminar).
+		Planes Operativos Anuales. (Listar/Insertar/Modificar/Eliminar).
+		Objetivos Operativos de los POA. (Listar/Insertar/Modificar/Eliminar).
+		Actividades (Listar/Insertar/Modificar/Eliminar).
+		Fases (Listar)
+
+Organización
+	* Se añade botón de "Volver" a listar_organizacion.php y admin_direccion.php
+
+Todo el sitio web:
+	* Se añadió comprobación de permisos de usuario a los siguientes archivos: consultar_logs.php, 
+	  consultar_logs_contenido.php, listar_mensaje_solo_lectura.php, listar_grupos_intranet.php, listar_modulos_intranet.php, 
+	  listar_sistemas_intranet.php, listar_usuarios_intranet.php, listar_actuaciones.php, listar_entes_organos.php, aprobar_permisos.php,
+	  aprobar_vacaciones.php, asistencia_cedula.php, asistencia_diaria.php, asistencia_propia.php, asistencia_semanal.php
+	  calcular_vacaciones.php, cargar_archivo.php, consultar_vacaciones_propias.php, consultar_vacaciones_cedula.php, estatus_asistencia.php
+	  incluir_permiso_cedula.php, incluir_permiso_propio.php, incluir_vacacion_cedula.php, listado_vacaciones_disponibles.php,
+	  listado_vacaciones_disponibles_todos.php, listar_categorias.php, listar_no_laborables.php, listar_tipo_justificaciones.php,
+	  listar_memoranda.php, listar_oficios.php, admin_direccion.php, listar_organizacion.php, listar_personas.php, muestra_direccion.php
+
+
+0.3 *********************************************************************************************************************************************************
+
+Intranet: 
+    * Se modificó index.php para que incluya en la variable sesion el sistema del cual viene para que los módulos con botón volver lleguen 
+       a ese sistema en lugar de ver todos los sistemas desde el inicio.
+
+Asistencias
+    * Se incluyó una mejora sustancial en la solicitud y aprobación de vacaciones, que afecta los archivos: inserta_solicitud_vacacion.php, 
+	  aprobar_vacaciones.php, incluir_vacacion.php, utilidades.php; se trabaja con laborables y feriados en forma de arreglos para compensar 
+	  el retraso cuando se trabajan con muchos dias y las llamadas recurrentes y recursivas a consultas de sql que lo hacian muy lento; 
+	  adicionalmente, se incluyen funcionalidades para el descuento de dias habiles de vacaciones en aquellos casos en que sea aplicado un horario con 
+	  descuento especial, por ejemplo: el navideño. p.e. en la Contraloría de Nueva Esparta se descuenta un dia de vacaciones por cada siete 
+	  disfrutados si se piden en horario navideño para compensar los dias que el funcionario no trabaja por la hora adicional que no está cumpliendo.
+	* Se modifica utilidades.php para incluir una función que busque cuál es el horario vigente dada una fecha específica.
+	* Se modificó utilidades.php para incluir función de descuento especial de dias de vacaciones sin importal el periodo al cual pertenezca.
+	* Se creó marcado.php, y marcado_log.php ésta página se encarga (conjuntamente con marcado_log.php) de marcar la entrada y salida del personal de la institución, funciona con AJAX con marcado_log y dice a qué hora se esta marcando y si es entrada y salida. Para no recargar al servidor, se ha realizado de manera que consulte la hora del servidor sólo al momento de ser cargada, luego continua con su reloj interno. Adicionalmente, esta pagina toma la foto del personal para mostrarla cuando marque, las fotos deben estar localizadas en la carpeta /imgs/fotosfuncionarios y deben ser de 400x300 en formato jpg.
+	- Se incluye módulo para la consulta de entradas y salidas intrahorario de los funcionarios (usando AJAX).
+
+Actuaciones
+    * Se modificó el archivo vincular_funcionario_actuacion.php para realizar incorporaciones y desincorporaciones de funcionarios a las actuaciones 
+	  fiscales usando fechas individuales. Por ejemplo: una actuación fiscal es desde el 01/07 al 15/07, pero el abogado X participó en ella sólo 
+	  del 10 al 15, ahora el sistema está en capacidad de justificar sólo los dias del 10 al 15 para ese funcionario y del 01 al 15 para los demás.  
+	  
+Presupuesto y Finanzas
+    * Se incluye módulo para la inclusión de descripcion de presupuestos.
+	* Se creó módulo de consulta de descripción presupuestaria con AJAX que consta de dos archivos: consulta_descripcion_ppto.php, detalle_descripcion_ppto.php    
+	* Se incluye modulo para la modificación de la descripción del presupuesto
+	* Se incluye módulo para la eliminación de la descripción del presupuesto; se modifica para que funcione con AJAX conjuntamente con los archivos eliminar_descripcion_ppto.php, elimina_descripcion_ppro_list.php; y se complementa con la inclusión de otro archivo denominado consulta_multinivel_ppto.php la cual brinda un modo de consulta para poder navegar entre códigos presupuestarios en múltiples niveles.
+
+***************************************************************************************************************************************************
+***************************************************************************************************************************************************
+***************************************************************************************************************************************************
+
+	  
+POR HACER:
+Incluir prórroga a una actuación fiscal.
+Modificación de registro de entrada y salida de una persona; que se pueda incluir, modificar y eliminar
+reporte de cesta tickets que le toca a un funcionario.
+
+OJO, mosca con comprobantes_por_cedula en DJP que no esta listo, ver boton AJAX.
+
+
+
+
+
+
+
+
+	  
+	  
+	  
+	  
+	  

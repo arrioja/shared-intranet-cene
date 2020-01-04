@@ -1,0 +1,22 @@
+.loading
+{
+	font-size:14px;
+	font-family:verdana;
+	font-weight:bold;
+}
+.loaded
+{
+	font-size:12px;
+	font-family:verdana;
+}
+.text
+{
+	font-size:12px;
+	font-family:verdana;	
+}
+.textheading
+{
+	font-size:14px;
+	font-family:verdana;	
+	font-weight:bold;
+}

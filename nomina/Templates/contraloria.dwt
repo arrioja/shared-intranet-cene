@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+<table width="116%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" valign="top"><img src="../imagenes/cabecera-izquierda.jpg" width="219" height="154" /><img src="../imagenes/cabecera-derecha.jpg" width="625" height="154" border="0" usemap="#Map" /></td>
+  </tr>
+  <tr>
+    <td width="25%" valign="top"><img src="../imagenes/lateral-top.jpg" width="213" height="164" /></td>
+    <td width="44%" rowspan="2" valign="top"><!-- TemplateBeginEditable name="cuerpo" -->cuerpo<!-- TemplateEndEditable --></td>
+    <td width="31%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="../login.php"></a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+<area shape="poly" coords="548,99,547,105,547,116,552,116,556,114,562,109,571,112,581,110,582,105,587,104,595,105,600,107,607,112,614,117,619,114,617,104,612,99,602,94,590,92,578,92,566,94,557,94,553,96" href="../login.php" />
+</map></body>
+</html>

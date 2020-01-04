@@ -1,0 +1,58 @@
+<HTML>
+<HEAD>
+<TITLE>Pantalla Maestra</TITLE>
+<!--<link rel="STYLESHEET" href="estilo.css" media="screen" type="text/css">-->
+<SCRIPT language="JavaScript">
+<!--
+function cargar_contenido(target,valor)
+{
+  var peticion;
+  document.getElementById(target).innerHTML = '<p class=\"load\">Cargando...</p>';
+  var myConn = new XHConn();
+  if (!myConn) alert("XMLHTTP no esta disponible. Intalo con un navegador mas nuevo.");
+  peticion=function(oXML){document.getElementById(target).innerHTML=oXML.responseText;};
+  myConn.connect("detalle.php?cvee="+valor, "GET", "", peticion);
+}
+//-->
+</SCRIPT>
+<script language="JavaScript" src="XHConn.js"></script>
+</head>
+<body>
+<form  name="forma" method="GET" action="#">
+<center>
+<H2><a name=inic>captura de arreglo</a></H2>
+Teclee la Clave :
+<table border=1 width=50%>
+<tr><td width=10%>
+    <input class="hidden" type="text" name="cvee1" size="8" maxlength="8"
+           onKeypress="if(event.keyCode == 13){ 
+                                cargar_contenido('detallecvee1',this.value); 
+                                return false;
+                        }">
+    </input></td>
+    <td><div align=center id="detallecvee1"></div><td></tr>
+<tr><td width=10%>
+    <input class="hidden" type="text" name="cvee2" size="8" maxlength="8"
+           onKeypress="if(event.keyCode == 13){ 
+                                cargar_contenido('detallecvee2',this.value); 
+                                return false;
+                       }">
+    </input></td>
+    <td><div align=center id="detallecvee2"></div></td></tr>
+<tr><td width=10%>
+    <input class="hidden" type="text" name="cvee3" size="8" maxlength="8"
+           onKeypress="if (event.keyCode == 13){ 
+                                cargar_contenido('detallecvee3',this.value); 
+                                return false;
+                       }">
+    </input></td>
+    <td><div align=center id="detallecvee3"></div></td></tr>
+</table>
+<br /><hr class=hidden>
+</center>
+</form>
+</BODY>
+</HTML>
+
+
+
